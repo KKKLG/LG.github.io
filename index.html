@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>我的娱乐世界</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--slider-->
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" />
+<link rel="icon" href="images/123.png" type="text/css" media="all" />     <!-- /网页图标/ -->
+<script src="js/modernizr.js"></script>
+<!-- jQuery -->
+ <script src="js/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+  <!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+	<audio autoplay="autoplay" controls="controls" style="height: 15px;" loop="loop" preload="auto" src="music/1.mp3" > </audio>
+</head>
+
+<body  style="background:pink;">	
+<div class="wrap">  <!--左右边距-->
+	<div class="total">     <!--左右边距-->
+		<div class="header"> </div>	  <!--上边距-->
+		<div class="menu"> 	       
+			<div class="top-nav">
+				<ul>
+					<li class="active"><a href="index.html"style="font-family: 楷体;">娱乐</a></li>|
+					<li><a href="music.html" style="font-family: 楷体;">音乐</a></li> |
+					<li><a href="movie.html"style="font-family: 楷体;">电影</a></li> |
+					<li><a href="teleplay.html"style="font-family: 楷体;">电视剧</a></li> |
+					<li><a href="show.html"style="font-family: 楷体;">综艺</a></li>|
+					<li><a href="https://blog.csdn.net/SS_SS_SSS_SSS/article/details/125572091" target="_blank"style="font-family: 楷体;">课程报告</a></li>
+				</ul>
+			</div>
+		</div>		 
+		<div class="banner" style="width: 800px; margin: auto; " >    		 <!-- 下边框*/ -->
+			<div class="flexslider" >
+	          <ul class="slides">
+	            <li><img src="ima/1.png"  style="width: 800px;height:500px;" alt="图片显示报错"/></li>
+	  	    	<li><img src="ima/10.png" style="width: 800px;height:500px;" alt="图片显示报错"/></li>
+	  	    	<li><img src="ima/17.png" style="width: 800px;height:500px;" alt="图片显示报错"/></li>
+	  	    	<li><img src="ima/28.png" style="width: 800px;height:500px;" alt="图片显示报错"/></li>
+	          </ul>
+	        </div>
+	   </div>
+   </div>
+  
+<div class="main">
+	   <div class="heading3">
+		    <h3 >我的娱乐世界</h3>
+	    </div>
+	    <div class="section " >
+				<div class="col_1_of_4 span_1_of_4">
+					<img src="ima/105.png" style="height:260px;width: 100%;" alt="图片显示报错"/>
+					<div class="desc">
+						<div class="left-text">
+						<h5><a href="https://baike.baidu.com/item/%E5%91%A8%E6%9D%B0%E4%BC%A6/129156" target="_blank">周杰伦</a></h5>
+						</div>
+					</div>
+					<p class="yihang"></p>
+				  </div>
+			    <div class="col_1_of_4 span_1_of_4" >
+					<img src="ima/102.png" style="height:260px;width: 100%;" alt="图片显示报错"/>
+					<div class="desc">
+						<div class="left-text">
+							<h5>
+						<a href="https://baike.baidu.com/item/%E8%AE%B8%E5%85%89%E6%B1%89/22212681?fr=aladdin" target="_blank">许光汉</a></h5>
+						</div>
+					</div>
+					<p class="yihang"></p>
+				  </div>
+				<div class="col_1_of_4 span_1_of_4">
+					<img src="ima/106.png" style="height:260px;width: 100%;" alt="图片显示报错"/>
+					<div class="desc">
+						<div class="left-text" >
+					    <h5 ><a href="https://baike.baidu.com/item/%E7%99%BD%E9%B9%BF/19866592?fr=aladdin" target="_blank">白鹿</a></h5>
+						</div>
+					</div>
+				  </div>
+				<div class="col_1_of_4 span_1_of_4 ">
+					<img src="ima/100.png" style="height:260px;width: 100%;" alt="图片显示报错"/>
+					<div class="desc">
+						<div class="left-text">
+							<h5><a href="https://baike.baidu.com/item/%E9%83%AD%E7%A2%A7%E5%A9%B7/5954519?fr=aladdin" target="_blank">郭碧婷</a></h5>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div> 
+			</div>
+		
+			<video width=100% height="450" poster="ima/1.png" preload="none" controls="controls"><source src="music/1.mp4" /></video>
+
+</body>
+</html>
